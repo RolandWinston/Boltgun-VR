@@ -4,7 +4,7 @@
 
 v23.0.0 包含低多边形枪械、手臂和链锯剑，以及爆燃机枪与重力枪的枪口、方向和命中特效修正。
 
-[下载 v23.0.0](https://github.com/RolandWinston/Boltgun-VR/releases/tag/v23.0.0) · [安装和操作](docs/INSTALL.md) · [版本与测试说明](docs/RELEASE-NOTES.md) · [来源与许可](docs/CREDITS.md)
+[下载 v23.0.0](https://github.com/RolandWinston/Boltgun-VR/releases/tag/v23.0.0) · [安装和操作](INSTALL.md) · [版本与测试说明](RELEASE-NOTES.md) · [来源与许可](CREDITS.md)
 
 准备 Windows 电脑、Steam 版游戏、PCVR 头显、双手控制器、Python 3.10 或更新版本，以及 UEVR nightly 01143。测试设备为 Quest 3，连接方式为 ALVR、SteamVR 和 OpenXR。
 
@@ -29,4 +29,6 @@ v23.0.0 包含低多边形枪械、手臂和链锯剑，以及爆燃机枪与重
 
 A motion-controller VR mod for Warhammer 40,000: Boltgun, with tracked low-poly weapons, a left-hand chainsword, controller menus, projectile aiming and corrected Volkite/Gravgun beams. This release was accepted after headset testing on Quest 3 on 27 October 2026.
 
-Use the release ZIP and follow the [installation guide](docs/INSTALL.md). Build instructions and corresponding native, Lua and model sources are included in [source](source/BUILD-NOTES.txt).
+Use the release ZIP and follow the [installation guide](INSTALL.md). Build instructions and corresponding native, Lua and model sources are included in [release ZIP](https://github.com/RolandWinston/Boltgun-VR/releases/download/v23.0.0/Boltgun-VR-v23.0.0.zip).
+
+完整源码位于下载包的 source 文件夹，启动器源码为 launch.py。解压后按 source/BUILD-NOTES.txt 编译。
